@@ -647,7 +647,7 @@ const CircleCard = () => {
       p.y += p.speedY;
       p.life--;
 
-      ctx.fillStyle = `rgba(255,215,0,${p.life / 60})`;
+      ctx.fillStyle = `rgba(198,165,109,${p.life / 60})`;
 
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
