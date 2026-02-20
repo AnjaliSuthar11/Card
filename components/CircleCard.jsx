@@ -706,7 +706,7 @@ const CircleCard = () => {
   };
 
   return (
-    <div className="bg-gray-600">
+    <div className="bg-[#ceb586] rounded-2xl">
       <div
         className={`relative md:p-4 flex justify-center items-center overflow-hidden 
         transition-transform duration-500 ${pop ? "scale-105" : "scale-100"}`}
